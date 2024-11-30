@@ -14,3 +14,27 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
+.Box1 ul {
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.3s ease; 
+}
+.Box1 ul.show {
+    max-height: 200px; 
+}
+.Box2 ul {
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.3s ease; 
+}
+.Box2 ul.show {
+    max-height: 200px; 
+}
+.Box3 ul {
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.3s ease; 
+}
+.Box3 ul.show {
+    max-height: 200px; 
+}
