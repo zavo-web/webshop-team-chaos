@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+header {
+    background-color: black;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 100%;
+    height: 80px;
+}
+
+#searchbalk {
+    border-radius: 40px;
+    height: 40px;
+    width: 340px;
+}
+
+#zoekicon {
+    margin-bottom: -10px;
+    margin-left: -40px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+}
+
+section h1, div, nav {
+    margin-top: 10px;
+}
+
+#logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section h1 {
+    color: red;
+    font-size: 2rem;
+    margin-right: 100px;
+}
+
+
+section ul a {
+    color: red;
+    text-decoration: none;
+}
+
+section ul a:hover {
+    text-decoration: underline;
+}
+
+section input {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section img {
+    height: 30px;
+}
+
+.border {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+.bor1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    opacity: 90%;
+}
+
+.bor1:hover {
+    opacity: 100%;
+    transform: scale(101%);
+    position: relative;
+    rotate: 1deg;
+}
+
+.bor2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    opacity: 90%;
+}
+
+.bor2:hover {
+    opacity: 100%;
+    transform: scale(101%);
+    position: relative;
+    rotate: 1deg;
+}
+
+.bor3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    opacity: 90%;
+}
+
+.bor3:hover {
+    opacity: 100%;
+    transform: scale(101%);
+    position: relative;
+    rotate: 1deg;
+}
+
+.bor4 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    opacity: 90%;
+}
+
+.bor4:hover {
+    opacity: 100%;
+    transform: scale(101%);
+    position: relative;
+    rotate: 1deg;
+}
+
+.bor5 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    opacity: 90%;
+}
+
+.bor5:hover {
+    opacity: 100%;
+    transform: scale(101%);
+    position: relative;
+    rotate: 1deg;
+}
+
+.border li {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.border h3 {
+    color: black;
+}
+
+.border p {
+    color: black;
+    opacity: 60%;
+    margin-bottom: 20px;
+}
+
+.border h2 {
+    color: red;
+}
+
+.Next {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Next h1 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.gallery_screens {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+    margin-left: 40px;
+}
+
+.gallery_screens img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+}
+
+.gallery_populair {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+    margin: 40px;
+}
+
+.gallery_populair img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+}
+
+.Info {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    display: block;
+    background-color: red;
+    border-radius: 30px;
+    height: 350px;
+    width: 700px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.box1 h2 {
+    position: relative;    /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
+    font-weight: 900;
+    top: 20px;
+    left: -320px;
+}
+
+.box1 p {
+    position: relative;     /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
+    font-weight: 600;
+    top: 130px;
+    left: -420px;
+}
+
+.box1 img {
+    height: 350px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    left: 351px;
+}
+
+.box2 {
+    display: block;
+    background-color: red;
+    border-radius: 30px;
+    height: 350px;
+    width: 700px;
+}
+
+.box2 h2 {
+    position: relative;     /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
+    font-weight: 900;    
+    top: -330px;
+    left: 30px;
+}
+
+.box2 p {
+    position: relative;      /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
+    font-weight: 600;
+    top: -240px;
+    left: 34px;
+}
+
+.box2 img {
+    height: 350px;
+    width: 350px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    left: 351px;
+    object-fit: cover;
+}
