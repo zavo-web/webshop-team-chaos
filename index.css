@@ -1,24 +1,16 @@
-.Box1 ul {
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.3s ease; 
+*{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    color: black;
 }
-.Box1 ul.show {
-    max-height: 200px; 
+header{
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: blue;
 }
-.Box2 ul {
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.3s ease; 
-}
-.Box2 ul.show {
-    max-height: 200px; 
-}
-.Box3 ul {
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.3s ease; 
-}
-.Box3 ul.show {
-    max-height: 200px; 
+section{
+    display: flex;
+    justify-content: space-evenly;
 }
