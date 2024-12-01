@@ -86,7 +86,7 @@ main {
     margin: 0 auto;
 }
 
-main article, ul {
+article, ul {
     display: flex;
     justify-content: center;
 }
@@ -96,11 +96,31 @@ main article, ul {
 .                                                  reclame begins
 */
 
-main article {
+article {
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
-    background-color: rebeccapurple;
+    background-color: black;
+    border-radius: 50px;
     width: 1260px;
-    height: 300px;
+    overflow-x: hidden;
+}
+
+article h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: -80px;
+}
+
+article ul {
+    margin-left: -100px;
+}
+
+article ul li {
+    display: flex;
+    align-items: flex-end;
 }
 
 /*                                                 reclame done
@@ -121,12 +141,39 @@ main article {
     border: 2px solid black;
     border-radius: 10px;
     width: 300px;
-    height: auto;
+    height: 300px;
     margin: auto;
     padding: auto;
     opacity: 90%;
 }
 
+.items img, h3, h2, p {
+    color: black;
+}
+
 .items img {
     width: 200px;
+    margin-top: 10px;
+}
+
+.items li:hover {
+    opacity: 100%;
+}
+
+/*                                                 items done
+-----------------------------------------------------------------------------
+.                                                  stop begins
+*/
+
+.stop {
+    display: flex;
+    flex-direction: row;
+}
+
+.stop1 {
+    display: flex;
+    justify-content: flex-end;
+    height: 350px;
+    width: 400px;
+    background-color: black;
 }
