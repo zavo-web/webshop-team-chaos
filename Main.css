@@ -16,17 +16,6 @@ header {
     height: 80px;
 }
 
-#searchbalk {
-    border-radius: 40px;
-    height: 40px;
-    width: 340px;
-}
-
-#zoekicon {
-    margin-bottom: -10px;
-    margin-left: -40px;
-}
-
 section {
     display: flex;
     justify-content: space-evenly;
@@ -38,8 +27,26 @@ section h1, div, nav {
     margin-top: 10px;
 }
 
-#logo {
-    height: 50px;
+section img {
+    height: 30px;
+}
+
+section h1 {
+    color: white;
+    font-size: 2rem;
+    margin-right: 100px;
+}
+
+#searchbalk {
+    border-radius: 40px;
+    height: 40px;
+    width: 340px;
+    padding-left: 30px;
+}
+
+#zoekicon {
+    margin-bottom: -10px;
+    margin-left: -40px;
 }
 
 nav {
@@ -56,37 +63,36 @@ nav ul li {
     margin-right: 20px;
 }
 
-section h1 {
-    color: red;
-    font-size: 2rem;
-    margin-right: 100px;
-}
-
-
-section ul a {
-    color: red;
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
-section ul a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-section input {
-    width: 250px;
-    height: 30px;
-    padding-left: 10px;
-    font-family: 'Poppins', sans-serif;
+/*                                              Header done  
+--------------------------------------------------------------------------- 
+.                                               Reclame begins                         
+*/
+
+.reclame {
+
 }
 
-section img {
-    height: 30px;
+.reclame img {
+    width: 100%;
 }
 
+/*                                                 Reclame done
+-----------------------------------------------------------------------------
+.                                                  Boxes begins
+*/
 .border {
     margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     overflow-x: hidden;
 }
 
@@ -203,7 +209,7 @@ section img {
 }
 
 .border h2 {
-    color: red;
+    color: black;
 }
 
 .Next {
@@ -259,13 +265,13 @@ section img {
 
 .box1 {
     display: block;
-    background-color: red;
+    background-color: black;
     border-radius: 30px;
     height: 350px;
     width: 700px;
     display: flex;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .box1 h2 {
@@ -292,10 +298,11 @@ section img {
 
 .box2 {
     display: block;
-    background-color: red;
+    background-color: black;
     border-radius: 30px;
     height: 350px;
     width: 700px;
+    color: white;
 }
 
 .box2 h2 {
