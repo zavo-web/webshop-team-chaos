@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 hr {
@@ -65,7 +67,6 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -74,257 +75,58 @@ nav ul li a:hover {
 
 /*                                              Header done  
 --------------------------------------------------------------------------- 
-.                                               Reclame begins                         
+.                                               main begins                         
 */
 
-.reclame {
-
-}
-
-.reclame img {
-    width: 100%;
-}
-
-/*                                                 Reclame done
------------------------------------------------------------------------------
-.                                                  Boxes begins
-*/
-.border {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    overflow-x: hidden;
-}
-
-.bor1 {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 420px;
-    margin: 20px;
-    padding: 10px;
-    height: auto;
-    list-style-type: none;
-    opacity: 90%;
-}
-
-.bor1:hover {
-    opacity: 100%;
-    transform: scale(101%);
-    position: relative;
-    rotate: 1deg;
-}
-
-.bor2 {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 420px;
-    margin: 20px;
-    padding: 10px;
-    height: auto;
-    list-style-type: none;
-    opacity: 90%;
-}
-
-.bor2:hover {
-    opacity: 100%;
-    transform: scale(101%);
-    position: relative;
-    rotate: 1deg;
-}
-
-.bor3 {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 420px;
-    margin: 20px;
-    padding: 10px;
-    height: auto;
-    list-style-type: none;
-    opacity: 90%;
-}
-
-.bor3:hover {
-    opacity: 100%;
-    transform: scale(101%);
-    position: relative;
-    rotate: 1deg;
-}
-
-.bor4 {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 420px;
-    margin: 20px;
-    padding: 10px;
-    height: auto;
-    list-style-type: none;
-    opacity: 90%;
-}
-
-.bor4:hover {
-    opacity: 100%;
-    transform: scale(101%);
-    position: relative;
-    rotate: 1deg;
-}
-
-.bor5 {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 300px;
-    height: 420px;
-    margin: 20px;
-    padding: 10px;
-    height: auto;
-    list-style-type: none;
-    opacity: 90%;
-}
-
-.bor5:hover {
-    opacity: 100%;
-    transform: scale(101%);
-    position: relative;
-    rotate: 1deg;
-}
-
-.border li {
+main {
     display: flex;
     flex-direction: column;
-    align-content: center;
-
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
 }
 
-.border h3 {
-    color: black;
+main article, ul {
+    display: flex;
+    justify-content: center;
 }
 
-.border p {
-    color: black;
-    opacity: 60%;
-    margin-bottom: 20px;
-}
+/*                                                 main done
+-----------------------------------------------------------------------------
+.                                                  reclame begins
+*/
 
-.border h2 {
-    color: black;
-}
-
-.Next {
+main article {
     margin-top: 100px;
-    margin-bottom: 100px;
+    background-color: rebeccapurple;
+    width: 1260px;
+    height: 300px;
 }
 
-.Next h1 {
-    margin-left: 40px;
-    margin-bottom: 30px;
+/*                                                 reclame done
+-----------------------------------------------------------------------------
+.                                                  items begins
+*/
+
+.items {
+    margin-top: 50px;
+    width: 85%;
 }
 
-.gallery_screens {
+.items li {
     display: flex;
-    flex-direction: row;
-    overflow-x: auto;
+    flex-direction: column;
     align-items: center;
-    list-style: none;
-    gap: 100px;
-    margin-left: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    opacity: 90%;
 }
 
-.gallery_screens img {
-    height: 100px;
-    width: auto;
-    object-fit: cover;
-}
-
-.gallery_populair {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    align-items: center;
-    list-style: none;
-    gap: 100px;
-    margin: 40px;
-}
-
-.gallery_populair img {
-    height: 100px;
-    width: auto;
-    object-fit: cover;
-}
-
-.Info {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.box1 {
-    display: block;
-    background-color: black;
-    border-radius: 30px;
-    height: 350px;
-    width: 700px;
-    display: flex;
-    text-decoration: none;
-    color: white;
-}
-
-.box1 h2 {
-    position: relative;    /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
-    font-weight: 900;
-    top: 20px;
-    left: -320px;
-}
-
-.box1 p {
-    position: relative;     /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
-    font-weight: 600;
-    top: 130px;
-    left: -420px;
-}
-
-.box1 img {
-    height: 350px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    position: relative;
-    left: 351px;
-}
-
-.box2 {
-    display: block;
-    background-color: black;
-    border-radius: 30px;
-    height: 350px;
-    width: 700px;
-    color: white;
-}
-
-.box2 h2 {
-    position: relative;     /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
-    font-weight: 900;    
-    top: -330px;
-    left: 30px;
-}
-
-.box2 p {
-    position: relative;      /*sorry mevrouw ik was te moe om te zoeken hoe ik het deftig moest doen*/
-    font-weight: 600;
-    top: -240px;
-    left: 34px;
-}
-
-.box2 img {
-    height: 350px;
-    width: 350px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    position: relative;
-    left: 351px;
-    object-fit: cover;
+.items img {
+    width: 200px;
 }
