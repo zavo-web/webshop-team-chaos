@@ -131,6 +131,7 @@ article ul li {
 .items {
     margin-top: 50px;
     width: 85%;
+    margin-bottom: 90px;
 }
 
 .items li {
@@ -164,16 +165,3 @@ article ul li {
 -----------------------------------------------------------------------------
 .                                                  stop begins
 */
-
-.stop {
-    display: flex;
-    flex-direction: row;
-}
-
-.stop1 {
-    display: flex;
-    justify-content: flex-end;
-    height: 350px;
-    width: 400px;
-    background-color: black;
-}
