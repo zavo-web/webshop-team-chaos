@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <main>
+      <div class="title-text">
+        <div class="title signup">Account</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <!--login text-->
+          <input type="radio" name="slide" id="login" checked />
+          <input type="radio" name="slide" id="signup" />
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">SignUp</label>
+
+          <!--dit is om de slider van de login en singup te bewegen-->
+          <div class="slider-tab"></div>
+        </div>
+
+        <div class="form-inner">
+          <!--login button-->
+          <form action="#" class="login">
+            <div class="field">
+              <!--maakt zeker dat je een email hebt ingevuld-->
+              <input type="text" placeholder="Email Address" required />
+            </div>
+            <!--maakt zeker dat je een watchwoord hebt ingevukd-->
+            <div class="field">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <!--reset password-->
+            <div class="pass-link">
+              <a href="#">Reset password?</a>
+              <!--login sumbit button-->
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login" />
+            </div>
+            <!--nieuw acount-->
+            <div class="signup-link">
+              Geen acount? <a href="">Maak een nieuwe.</a>
+            </div>
+          </form>
+          <!--sing up is de zelfde-->
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Confirm Password" required />
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="SignUp" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
